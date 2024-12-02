@@ -1,7 +1,3 @@
---
-layout: base.njk
-title: "Balatro"
---
 # *Balatro*: La Sorpresa de Este Año, Un Roguelike de Póker que Merece Ganar el Juego del Año
 
 Aunque *Balatro* puede no contar con una historia profunda, un arte realista o las mecánicas más complejas, tiene algo que muchos juegos hoy en día carecen: es simplemente **divertido**. Su jugabilidad absorbente, la creatividad de su diseño y la rejugabilidad infinita lo convierten en una de las experiencias más adictivas y frescas de los últimos tiempos. A pesar de la controversia que lo rodea, *Balatro* merece completamente la nominación a Juego del Año y, personalmente, espero que gane. Además, lo más impresionante es que *Balatro* ha sido desarrollado por una sola persona, lo que hace aún más notable su éxito.
