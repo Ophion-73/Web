@@ -1,20 +1,26 @@
+module.exports = function(eleventyConfig) {
+    return {
+        dir: {
+            input: "src", // Carpeta donde están tus archivos .md
+            output: "dist", // Carpeta donde se generarán los archivos HTML
+            includes: "_includes", // Carpeta donde están tus layouts (como base.njk)
+        },
+        templateFormats: ["njk", "md"] // Asegúrate de que Nunjucks esté habilitado
+    };
+};
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <header>
-        <h1>Proyecto Final</h1>
+        <h1>{{ title }}</h1>
     </header>
     <main>
         {{ content | safe }}
     </main>
-    <footer>
-        <p>&copy; 2024 Proyecto Final</p>
-    </footer>
 </body>
 </html>
