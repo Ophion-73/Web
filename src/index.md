@@ -1,7 +1,7 @@
---
+---
 layout: base.njk
 title: "Página de Inicio"
---
+---
 Bienvenido al índice de repositorios
 Aquí están todos los repositorios disponibles:
 
